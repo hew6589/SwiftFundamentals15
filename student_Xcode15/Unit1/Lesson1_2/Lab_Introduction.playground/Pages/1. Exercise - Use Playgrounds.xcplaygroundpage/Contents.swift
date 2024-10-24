@@ -10,11 +10,16 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
+print("Hit Me Baby One Time")
 
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
+print("Hit me, baby, one more time")
+print("My loneliness is killin' me")
+print("Oh, baby, baby")
+print("Tell me, baby, 'cause I need to know now")
 
 
 

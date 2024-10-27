@@ -3,6 +3,9 @@
  
  Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
  */
+var battery = 10
+battery = battery + 5 // 15
+battery *=2 // 30
 
 
 /*:
@@ -13,9 +16,17 @@
 - You spend half your money on dinner and a movie
 - You triple what's left in your penny bank by washing windows
 - You spend 3 dollars at a convenience store
+
+var pennyBank = 0
+pennyBank = pennyBank + 10 // 10
+pennyBank +=20 // 30
+pennyBank /=2 // 15
+pennyBank *=3 // 45
+pennyBank -=3 // 42
  
  Print the balance of your penny bank after each step.
  */
+print(42)
 
 
 /*:

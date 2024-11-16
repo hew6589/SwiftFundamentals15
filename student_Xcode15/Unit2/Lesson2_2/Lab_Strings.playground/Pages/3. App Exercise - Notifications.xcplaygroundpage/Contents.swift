@@ -17,12 +17,12 @@ print("Wendy He")
  Occasionally users of your fitness tracking app will beat previous goals or records. You may want to notify them when this happens for encouragement purposes. Create a new constant `congratulations` and assign it a string literal that uses string interpolation to create the following string:
  
 - "Congratulations, <INSERT USER'S FULL NAME HERE>! You beat your previous daily high score of <INSERT PREVIOUS HIGHEST STEPS HERE> steps by walking <INSERT NEW HIGHEST STEPS HERE> steps yesterday!"
- print("Congratulations, Wendy He! You beat your previous daily high score of 14392 steps by walking 15125 steps yesterday!")
+
  Insert `fullName`, `previousBest` and `newBest` where indicated. Print the value of `congratulations`.
  */
 let previousBest = 14392
 let newBest = 15125
-
+print("Congratulations, Wendy He! You beat your previous daily high score of 14392 steps by walking 15125 steps yesterday!")
 /*:
 [Previous](@previous)  |  page 3 of 5  |  [Next: Exercise - String Equality and Comparison](@next)
  */

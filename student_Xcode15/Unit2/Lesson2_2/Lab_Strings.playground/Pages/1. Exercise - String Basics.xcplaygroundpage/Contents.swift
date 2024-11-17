@@ -2,13 +2,14 @@
 ## Exercise - String Basics
  
  Create a `name` constant and assign it a string literal representing your name.
- */
+ */ let name = "Wendy He"
 
 
 /*:
  Create a `favoriteQuote` constant and assign it the following string literal:
  
 - "My favorite quote is <INSERT QUOTE HERE>."
+"My favorite quote is "Never stop dreaming."
  
  Write in your own favorite quote where indicated, and be sure to include escaped quotation marks. When finished, print the value of `favoriteQuote`.
 
@@ -18,7 +19,10 @@
 
 
 //:  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
-let emptyString = ""
+let emptyString = "There's nothing here"
+if myString.isEmpty {
+ print("It's not as empty as I thought")
+}
 
 
 /*:

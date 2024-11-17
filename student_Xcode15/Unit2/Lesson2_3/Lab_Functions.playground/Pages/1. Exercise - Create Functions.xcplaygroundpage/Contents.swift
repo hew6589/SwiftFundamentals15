@@ -11,6 +11,11 @@
 import Foundation
 func magicEightBall
 let randomNum = Int.random(in: 0...4)
+if magicEightBall = randomNum {
+ print(3)
+} else if {
+ print(2)
+}
 
 
 

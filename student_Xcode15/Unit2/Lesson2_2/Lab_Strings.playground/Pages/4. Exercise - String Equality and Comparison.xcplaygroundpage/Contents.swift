@@ -13,13 +13,13 @@ if nameInCaps != name {
  Write a new if-else statement that also checks to see if `nameInCaps` and `name` are the same. However, this time use the `lowercased()` method on each constant to compare the lowercase version of the strings. If they are equal, print the following statement using string interpolations:
  
 - "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT LOWERCASED VERSION OF `name` HERE> are the same."
- "wendy he and wendy he are the same." 
+  
 
  If they are not equal, print the following statement using string interpolation:
  
 - "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT LOWERCASED VERSION OF `name` HERE> are not the same."
  */
-
+"wendy he and wendy he are the same."
 
 //:  Imagine you are looking through a list of names to find any that end in "Jr." Write an if statement below that will check if `junior` has the suffix "Jr." If it does, print "We found a second generation name!"
 let junior = "Cal Ripken Jr."

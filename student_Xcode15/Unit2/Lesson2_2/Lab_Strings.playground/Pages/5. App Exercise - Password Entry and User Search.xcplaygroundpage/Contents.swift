@@ -9,6 +9,9 @@ let storedUserName = "TheFittest11"
 let storedPassword = "a8H1LuK91"
 let enteredUserName = "thefittest11"
 let enteredPassword: String = "a8H1Luk9"
+if storedUserName and storedPassword != enteredUserName and enteredPassword {
+ print("Please checkcheck your user name and password and try again.")
+}
 
 
 /*:
@@ -19,6 +22,7 @@ let enteredPassword: String = "a8H1Luk9"
 import Foundation
 let userName = "StepChallenger"
 let searchName = "step"
+if userName.contains("step")
 
 
 /*:

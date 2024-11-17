@@ -28,7 +28,7 @@ func pacing
       let currentDistance = 2500 miles
       let totalDistance = 5000 miles
       let currentTime = 10:00
-      let goalTime = 15:00
+      let goalTime = 1:15:00
       print("Keep it up!")
 
 /*:

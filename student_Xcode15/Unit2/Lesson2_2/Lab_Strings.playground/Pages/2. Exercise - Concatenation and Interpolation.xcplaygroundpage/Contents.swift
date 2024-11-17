@@ -18,12 +18,11 @@ print("I live in home.")
  let name = Wendy
 let age = 35
 
-"My name is Wendy and after my next birthday I will be (35 + 1) = 36 years old." 
+ 
 - "My name is <INSERT NAME HERE> and after my next birthday I will be <INSERT AGE HERE> years old."
  
  Insert `name` where indicated, and insert a mathematical expression that evaluates to your current age plus one where indicated.
- */
-
+ */"My name is Wendy and after my next birthday I will be (35 + 1) = 36 years old."
 
 /*:
 [Previous](@previous)  |  page 2 of 5  |  [Next: App Exercise - Notifications](@next)

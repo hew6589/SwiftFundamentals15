@@ -9,6 +9,7 @@ struct RunningWorkout {
     var distance: Double
     var time: Double
     var elevation: Double
+ let RunningWorkout = postWorkoutStats
     
 }
 

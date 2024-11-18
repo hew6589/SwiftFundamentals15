@@ -18,7 +18,11 @@ struct RunningWorkout {
 struct Steps {
     var steps: Int
     var goal: Int
-    
+  struct takeStep {
+   mutating func increment()
+   step += 1
+  }
+ let Steps = takeStep()
 }
 
 

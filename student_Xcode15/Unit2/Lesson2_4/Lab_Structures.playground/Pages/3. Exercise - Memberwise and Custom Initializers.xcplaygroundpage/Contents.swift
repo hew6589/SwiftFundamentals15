@@ -5,7 +5,7 @@
  */
 struct GPS {
 var latitude: 
- var longitude:
+var longitude:
 
 }
 //:  Now create a constant instance of `GPS` called `somePlace`, and use the memberwise initializer to set `latitude` to 51.514004, and `longitude` to 0.125226. Print the values of `somePlace`'s properties.

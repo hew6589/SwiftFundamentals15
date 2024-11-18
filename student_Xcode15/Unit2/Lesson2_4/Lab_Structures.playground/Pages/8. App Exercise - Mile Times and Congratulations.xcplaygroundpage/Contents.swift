@@ -11,6 +11,9 @@ struct RunningWorkout {
     var distance: Double
     var time: Double
     var elevation: Double
+ init(averageMileTime)
+ distance/time
+}
     
 }
 
@@ -23,10 +26,13 @@ struct RunningWorkout {
 struct Steps {
     var steps: Int
     var goal: Int
+ var willSet
     
     mutating func takeStep() {
         steps += 1
     }
+ let steps = 9999
+ let goal = 10000
 }
 
 

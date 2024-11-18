@@ -6,7 +6,9 @@
 struct Rectangle {
     var width: Int
     var height: Int
-    
+    init(rectangle) {
+     area = width * height
+    }
 }
 
 
@@ -16,9 +18,9 @@ struct Rectangle {
  Create an instance of `Height` and then change one of its properties. Print out the other property to ensure that it was adjusted accordingly.
  */
 struct Height {
-    var heightInInches: Double
+    var heightInInches: Double = didset
     
-    var heightInCentimeters: Double
+    var heightInCentimeters: Double = didset 
     
     init(heightInInches: Double) {
         self.heightInInches = heightInInches

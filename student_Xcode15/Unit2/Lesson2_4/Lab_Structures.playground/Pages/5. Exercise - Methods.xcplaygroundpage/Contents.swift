@@ -20,7 +20,7 @@ struct Post {
     var likes: Int
     var numberOfComments: Int
  struct like {
-  mutating func increment() {
+  mutating func likes() {
    likes += 1
   }
    let Post = likes()

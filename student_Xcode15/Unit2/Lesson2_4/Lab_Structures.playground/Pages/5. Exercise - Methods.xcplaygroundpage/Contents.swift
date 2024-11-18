@@ -8,6 +8,8 @@ struct Book {
     var author: String
     var pages: Int
     var price: Double
+func description: 
+ let Book = description 
     
 }
 
@@ -16,8 +18,11 @@ struct Book {
 struct Post {
     var message: String
     var likes: Int
+ mutating func increment () {
+  likes += 1
+ }
     var numberOfComments: Int
-
+ 
 }
 
 

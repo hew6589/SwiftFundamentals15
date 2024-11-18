@@ -18,11 +18,12 @@ func description:
 struct Post {
     var message: String
     var likes: Int
- mutating func increment () {
-  likes += 1
- }
     var numberOfComments: Int
- 
+ struct like {
+  mutating func increment() {
+   likes += 1
+  }
+   let Post = likes()
 }
 
 

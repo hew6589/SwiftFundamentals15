@@ -71,7 +71,7 @@ super.init defender
 
 //:  Create a new constant named `sameShip` and set it equal to `falcon`. Print out the position of `sameShip` and `falcon`, then call `moveLeft()` on `sameShip` and print out the position of `sameShip` and `falcon` again. Did both positions change? Why? If both were structs instead of classes, would it be the same? Why or why not? Provide your answer in a comment or print statement below.
 let sameShip = falcon
-no. because the position was not mention like move left twice.
+no, because the position was not mention like move left twice.
 
 /*:
  _Copyright © 2023 Apple Inc._

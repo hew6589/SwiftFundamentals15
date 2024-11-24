@@ -10,17 +10,21 @@
 var paces = ["Easy": 10.0, "Medium": 8.0, "Fast": 6.0]
 
 //:  Add a new key/value pair to the dictionary. The key should be "Sprint" and the value should be 4.0. Print the dictionary.
-
+let oldValue = paces.updateValue(4.0, forKey: "Sprint")
+print("oldValue")
 
 
 //:  Imagine the user in question gets faster over time and decides to update his/her pacing on runs. Update the values of "Medium" and "Fast" to 7.5 and 5.8, respectively. Print the dictionary.
-
+let oldValue = paces.updateValue(7.5, forKey: "Medium")
+let oldValue = paces.updateValue(5.8, forKey: "Fast")
+print(oldValue)
 
 //:  Imagine the user in question decides not to store "Sprint" as one his/her regular paces. Remove "Sprint" from the dictionary. Print the dictionary.
-
+if let removedValue = paces.removeValue(forKey: "Sprint") {
+ print("Sprint was removed")
 
 //:  When a user chooses a pace, you want the app to print a statement stating that it will keep him/her on pace. Imagine a user chooses "Medium." Accessing the value from the dictionary, print a statement saying "Okay! I'll keep you at a <INSERT PACE VALUE HERE> minute mile pace."
-
+print("Okay, I'll keep you at a 7.0 minute mile pace.")
 
 /*:
  _Copyright © 2023 Apple Inc._

@@ -5,19 +5,26 @@
 
  Create a `Spaceship` class with three variable properties: `name`, `health`, and `position`. The default value of `name` should be an empty string and `health` should be 0. `position` will be represented by an `Int` where negative numbers place the ship further to the left and positive numbers place the ship further to the right. The default value of `position` should be 0.
  */ class Spaceship {
- let name: Falcon
- let health: -5
- let position: 0
- mutating func moveLeft() {
+ var name: Falcon
+var health: -5
+var position: 0
+ 
+ func moveLeft() {
  position += 1
  }
- mutating func moveRight() {
+ 
+ func moveRight() {
   position += 1
  }
 
  print(moveLeft=2 and moveRight=1)
- let wasHit() =-5
+ func wasHit() {
+  health -= 5
+  if health <= 0 {
  print("Sorry, your ship hit one too many times. Do you want to play again?")
+  }
+ }
+}
  
 
 //:  Create a `let` constant called `falcon` and assign it to an instance of `Spaceship`. After initialization, set `name` to "Falcon."
